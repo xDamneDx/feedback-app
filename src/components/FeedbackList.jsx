@@ -7,6 +7,8 @@ function FeedbackList({ feedback, handleDelete }) {
     return <p>No Feedback Yet</p>;
   }
 
+  // w/ animate
+
   return (
     <ul>
       <AnimatePresence>
@@ -25,6 +27,8 @@ function FeedbackList({ feedback, handleDelete }) {
       </AnimatePresence>
     </ul>
   );
+
+  // w/o animate
 
   // return (
   //   <ul>
